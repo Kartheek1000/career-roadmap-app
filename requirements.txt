@@ -1,0 +1,5 @@
+streamlit
+supabase
+PyPDF2
+python-dotenv
+pandas==2.1.0
