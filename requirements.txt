@@ -1,7 +1,0 @@
-streamlit
-supabase-py
-PyPDF2
-python-dotenv
-pandas
-
-
