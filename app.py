@@ -8,6 +8,7 @@ from knowledge_base import KNOWLEDGE_BASE_DATA
 import uuid
 import firebase_admin
 from firebase_admin import credentials, firestore
+api_key = st.secrets["FIREBASE_API_KEY"]
 
 # Initialize Firebase (only initialize once)
 if not firebase_admin._apps:
@@ -207,3 +208,4 @@ elif st.session_state.page == "main":
     show_main_app()
 else:
     show_login()
+
